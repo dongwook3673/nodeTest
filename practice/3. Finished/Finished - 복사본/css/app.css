@@ -1,0 +1,46 @@
+#player{
+  width:50%;
+  height:200px;
+  float:left;
+  text-align:center;
+  padding:30px;
+  box-sizing:border-box;
+}
+
+#monster{
+  width:50%;
+  height:200px;
+  float:left;
+  text-align:center;
+  padding:30px;
+  box-sizing:border-box;
+}
+
+.bar{
+  height:40px;
+  width:100%;
+  background-color: #eeedef;
+  margin-top:20px;
+}
+.gage{
+  text-align:center;
+  background-color:#0a9505;
+  height:40px;
+}
+#skills{
+  border:1px solid gray;
+  overflow:hidden;
+  padding:20px;
+  height:70px;
+}
+
+#skills ul{
+  margin:0 auto;
+  display:table;
+}
+
+#skills ul li{
+  float:left;
+  margin-left: 20px;
+  list-style: none;
+}
